@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+body {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.left-section {
+    background-color: rgba(0, 0, 0, 0.846);
+    padding: 40px;
+    color: white;
+    
+}
+
+.left-section p, ul {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact {
+    padding-bottom: 30px;
+    
+}
+
+.contact h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    font-size: 25px;
+}
+
+.contact p {
+    padding-top: 10px;
+}
+
+.skills {
+    padding-bottom: 25px;
+}
+
+.skills h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.skills ul {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.languages {
+    padding-bottom: 25px;
+}
+
+.language h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.language ul {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.right-section {
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+.title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.title h1 {
+    font-size: 75px;
+}
+
+.description {
+    margin-left: -40px;
+    margin-right: -40px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    text-align: justify;
+}
+
+.description p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.experience {
+    padding-bottom: 25px;
+}
+
+.experience h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.experience h3 {
+    padding-top: 10px;
+    padding-bottom: 5PX;
+}
+
+.experience ul {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.education {
+    padding-bottom: 25px;
+}
+
+.education h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.education h3 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.education p {
+    padding-bottom: 5px;
+}
