@@ -1,0 +1,136 @@
+:root {
+  --bs-body-bg: #1B1E27;
+  --bs-body-color: #ffffff;
+  --accent-cyan: #5C99E2;
+  --text-muted: #A5A7B2;
+  --bs-primary: #5C99E2;
+  --bs-dark: #1B1E27;
+  --bs-light: #A5A7B2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  background-color: #1B1E27 !important;
+  color: #ffffff !important;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hero-section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-section h1,
+section h2 {
+  color: #ffffff;
+}
+
+.hero-section p,
+section p {
+  color: var(--text-muted);
+}
+
+.hero-profile-img {
+  border: 2px solid #5fdef5 !important;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.highlight-name {
+  color: #5fdef5 !important;
+}
+
+.navbar {
+  background-color: #1B1E27 !important;
+  padding: 15px 0;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  color: #5fdef5 !important
+}
+
+.navbar .nav-link:hover {
+  color: #5C99E2 !important;
+}
+
+.btn-primary {
+  background-color: #5C99E2 !important;
+  border-color: #5C99E2 !important;
+}
+
+.btn-primary:hover {
+  background-color: #5387c7 !important;
+  border-color: #5387c7 !important;
+}
+
+.btn-outline-primary {
+  color: #5C99E2 !important;
+  border-color: #5C99E2 !important;
+}
+
+.card {
+  background-color: #242834 !important;
+  color: #ffffff !important;
+  border: none;
+}
+
+.project-card {
+  border: 1px solid #5fdef5 !important;
+  transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-card:hover {
+  border-color: #5C99E2 !important;
+  transform: translateY(-3px);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact-section h6 {
+  letter-spacing: 1px;
+}
+
+section {
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
